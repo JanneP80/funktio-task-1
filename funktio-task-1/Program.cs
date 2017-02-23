@@ -13,7 +13,6 @@ namespace funktio_task_1
             int inputnumber = 0;
             string message = string.Empty;
 
-
             Console.Write("This program prints as many stars as you want.\nPlease type amount: ");
             bool result = int.TryParse(Console.ReadLine(), out inputnumber);
             if (!result) // incorrect input
@@ -45,7 +44,5 @@ namespace funktio_task_1
             }
             return messagecounter;
         }
-
-
     }
 }
